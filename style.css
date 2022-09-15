@@ -18,14 +18,14 @@ h1{
     text-shadow: 2px 3px rgb(239, 126, 126);
 }
 #first,#second{
-    width: 1000px;
+    width: 1200px;
     height:500px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     box-shadow: 3px 3px 3px 3px rgb(193, 127, 177);
     margin-bottom: 100px;
-    margin-left: 250px;
+    margin-left: 150px;
 }
 .first1,.second1{
     width: 300px;
@@ -42,6 +42,22 @@ h1{
 }
 .first1:hover,.second1:hover{
     box-shadow: 5px 5px rgb(108, 2, 25);
+    animation: shift .5s linear;
+}
+@keyframes shift {
+    0%{
+        transform: translateX(0px);
+        /* transform: rotate(-180deg); */
+    }
+    50%{
+        transform: translateX(10px);
+        /* transform: rotate(180deg); */
+        
+    }
+    100%{
+        transform: translateX(0px);
+        /* transform: rotate(180deg); */
+    }
 }
 button{
     width: 90px;
