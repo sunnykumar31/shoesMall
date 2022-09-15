@@ -21,7 +21,7 @@ h1{
     width: 1200px;
     height:500px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     box-shadow: 3px 3px 3px 3px rgb(193, 127, 177);
     margin-bottom: 100px;
